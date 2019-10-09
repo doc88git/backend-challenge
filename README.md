@@ -11,13 +11,7 @@ A necessidade é desenvolver uma API RESTFul para o gerenciamento de pedidos de 
 
 ## Sobre o projeto
 
-A API deve contemplar os módulos **Cliente**, **Pastel** e **Pedido**, sendo que cada um devera conter os seguintes endpoints (CRUDL), exemplo:
-
-* `[POST] /api/clientes/` Cadastrar novo cliente;
-* `[GET] /api/clientes/${id}` Ler dados de cliente via ID;
-* `[GET] /api/clientes/` Listar Ler todos os clientes;
-* `[UPDATE] /api/clientes/${id}` Atualizar dados de cliente via ID;
-* `[DELETE] /api/clientes/${id}` Deletar cliente via ID;
+A API Restful deve contemplar os módulos **Cliente**, **Pastel** e **Pedido**, sendo que cada um devera conter  endpoints **CRUDL**.
 
 As tabelas devem conter as seguintes informações:
 
@@ -40,8 +34,6 @@ As tabelas devem conter as seguintes informações:
 
 * Testes unitários.
 * Estrutura para subir a aplicação criada (Dockerfile)
-* Endpoint de relacionamento, exemplo `api/cliente/pedidos/`
-* Endpoint de filtro, exemplo `api/cliente/perpage/active?page=1&cliente_id=10`
 
 ## Critérios de avaliação
 
