@@ -29,14 +29,17 @@ As tabelas devem conter as seguintes informações:
 * O cliente pode contemplar N pedidos.
 * Após a criação do pedido o sistema deve disparar um email para o cliente contendo os detalhes do seu pedido.
 * Os registros devem conter a funcionalidade de soft deleting.
+* Padronização PSR
+* Nomenclatura de classes, métodos e rotas no padrão americano.
 
-## Requisitos opcionais
+## Requisitos adicionais
 
 * Testes unitários.
-* Estrutura para subir a aplicação criada (Dockerfile)
+* Dockerizar a aplicação
 
 ## Critérios de avaliação
 
 * Profundidade do conhecimento e utilização das funcionalidades do framework.
 * Organização do código.
+* Padronização PSR
 * Fidelidade aos requisitos solicitados.
